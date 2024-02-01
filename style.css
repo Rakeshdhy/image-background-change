@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+.container{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    background-color: #e7e7ee;
+
+}
+
+
+.img-box{
+    width: 70%;
+    margin: auto;
+    line-height: 0;
+    background: url(images/background.png);
+    overflow: hidden;
+    position: relative;
+    
+}
+
+
+.img-wrap{
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    top: 0;
+    width: 50%;
+}
+
+span{
+    width: 1px;
+    height: 100%;
+    background-color: #fff;
+    cursor: ew-resize;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+.arrow{
+    width: 50px;
+    top: 50%;
+    position: absolute;
+    left: -25px;
+}
